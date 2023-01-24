@@ -49,3 +49,28 @@
     padding: 8px;
     font-size: 22px;
 }
+
+
+.card img{
+    height: 78px;
+    width: 75px;
+}
+.card-title{
+ color: #414040;
+ font-size: 32px;
+}
+.card-body{
+    color: #707070;
+    font-weight: 500;
+    letter-spacing: spacing 1px;   
+    height: 350px; 
+
+}
+.mainCard{
+    background: linear-gradient(180deg, #F3F3F3 0%,rgba(243,243,243,0) 100%);
+    border: 1px solid #E7E7E7;
+    
+}
+
+
+    
