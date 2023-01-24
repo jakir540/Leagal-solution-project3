@@ -1,0 +1,51 @@
+.mainbtn {
+    background-color: #B68C5A;
+}
+
+.banner{
+    background: linear-gradient(0deg, #111111 0%, rgba(17, 17, 17, 0) 100%),url(images/banner.png);
+   
+    height: 550px;
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.banner .banner-content{
+    color: white;
+    height: 340px;
+    width: 650px;
+    text-align: center;
+
+}
+.banner-content h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+.banner-content p{
+   font-size: 16px;
+   line-height: 26px;
+    font-weight: 500;
+    color: #E7E7E7;
+    
+
+}
+.form input{
+    height: 60px;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+}
+.form Button{
+    height: 60px;
+    width: 130px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    font-size: 22px;
+}
