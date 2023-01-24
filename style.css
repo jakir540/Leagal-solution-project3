@@ -13,6 +13,7 @@
     align-items: center;
     margin-top: 50px;
     border-radius: 10px;
+    margin: auto;
 }
 .banner .banner-content{
     color: white;
@@ -86,8 +87,49 @@
 
 
 
+footer .lists ul li{
+    list-style: none;
+    color: #CFCFCF;
+    text-transform: capitalize;
+    padding: 5px;
+}
+footer h3{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #CFCFCF;
+    padding: 2px;
+}
+footer .send input{
+   
+    background-color: #B68C5A;
+    background: transparent;
+    border: none;
+    text-align: center;
+   
+}
 
+footer .send .email{
+    height: 72px;
+    width: 250px;
+    padding: 5px;
+    /* background-color: #FFFFFF; */
+    background-color: #2c2c2c;
+    border-radius: 8px;
+}
 
+footer .send .logo{
+    background-color: #B68C5A;
+    font-size: 30px;
+    padding: 10px;
+   
+   
+    
+}
   
 
 
@@ -97,8 +139,64 @@
 
 
 
+@media screen and (max-width: 576px) {
+    .banner{
+        background-image:url(images/banner.png);
+       
+        height: 500px;
+        width: 380px; 
+        align-items: flex-start; 
+        margin-left: -30px; 
+       
+    }
+    .banner .form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 50px;
+        
+    }
+    .form input{     
+        width: 250px;
+        margin: 20px 0;        
+    }
+    .banner-content h1{
+        font-size: 22px;
+        text-align: start;
+       
+        
+    }
+    .banner-content p{
+       width: 400px;        
+       text-align: center;
+       font-size: 14px;
+       margin-left: -10px;
+     
+     }
+     .inneritem .slide-content h2,h3{
+        font-size: 16px;
+      
+       
+     }
+     .inneritem .slide-content img{
+        
+      height: 150px;
+      width: 150px;
+       
+     }
+     .inneritem .slide-content {
+        font-size: 14px;
+        line-height: 17px;
+      
+       
+     }
+     .faqs .faqimage img{
+        height: 500px;
+        width: 400px;
+        margin: 20px 0;
+     }
+
+}
 
     
 
-/*                 
-*/
